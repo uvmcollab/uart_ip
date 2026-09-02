@@ -20,7 +20,7 @@ module uart_tx #(
     input  logic       clk_i,
     input  logic       rst_i,
     input  logic       start_tx_i,
-    input  logic       sample_tick_i,
+    input  logic       sample_tick_i, 
     input  logic [7:0] din_i,
     output logic       tx_o,
     output logic       tx_done_tick_o

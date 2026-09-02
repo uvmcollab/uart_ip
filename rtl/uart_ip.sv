@@ -19,7 +19,7 @@ module uart_ip #(
 ) (
     input         clk_i,
     input         rst_i,
-    input  [10:0] dvsr_i,
+    input  [10:0] dvsr_i, 
     input  [7:0]  din_i,
     input         rx_i,
     input         start_tx_i,

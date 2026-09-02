@@ -20,7 +20,7 @@ module top #(
     input  [7:0]  din_i,
     input         rx_i,
     output [7:0]  dout_o,
-    output        tx_o,
+    output        tx_o, 
     output        rx_done_tick_o,
     output        tx_done_tick_o
 );

@@ -40,3 +40,4 @@ module baud_gen (
   assign tick_o = counter_done;
 
 endmodule : baud_gen
+ 

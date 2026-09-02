@@ -20,8 +20,8 @@ module uart_rx #(
     input  logic       clk_i,
     input  logic       rst_i,
     input  logic       rx_i,
-    input  logic       sample_tick_i,
-    output logic       rx_done_tick_o,
+    input  logic       sample_tick_i, 
+    output logic       rx_done_tick_o, 
     output logic [7:0] dout_o
 );
 

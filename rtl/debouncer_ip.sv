@@ -26,7 +26,7 @@ module debouncer_ip #(
 ) (
     input  clk_i,
     input  rst_i,
-    input  sw_i,
+    input  sw_i, 
     output db_level_o,
     output db_tick_o
 );
